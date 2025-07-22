@@ -1,0 +1,28 @@
+@import "./utilitarios/global.css";
+@import "./utilitarios/cores.css";
+@import "./utilitarios/tipografia.css";
+
+/* header */
+@import "./section/header.css";
+
+/* introdução */
+@import "./section/introducao.css";
+
+/* sobre */
+@import "./section/sobre.css";
+
+/* serviços */
+@import "./section/servicos.css";
+
+/* projetos */
+@import "./section/projetos.css";
+@import "./projetos/projetosCarrossel.css";
+
+/* experiencias */
+@import "./section/experiencia.css";
+
+/* contato */
+@import "./section/contato.css";
+
+/* footer */
+@import "./section/footer.css";

@@ -1,0 +1,34 @@
+.servicos-container {
+  margin: 0 auto;
+  padding: 8rem 0;
+}
+
+.servicos-header {
+  text-align: center;
+}
+
+.servicos-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.servicos-cardContent {
+  background-color: var(--cor-0);
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+/* responsivo */
+
+@media (max-width: 800px) {
+  .servicos-container {
+    padding: 4rem 0;
+  }
+  .servicos-card {
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 2rem;
+  }
+}

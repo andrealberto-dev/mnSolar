@@ -1,0 +1,82 @@
+.experiencias-container {
+  margin: 0 auto;
+  padding: 8rem 0rem;
+}
+
+.experiencias-header {
+  text-align: center;
+}
+
+.experiencias-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5rem;
+  padding-top: 2rem;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.experiencias-contentCard {
+  position: relative;
+}
+
+.experiencias-contentCard:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  top: 2.5rem;
+  width: 2px;
+  height: calc(100% + 1rem);
+  background: var(--cor-0);
+}
+
+.experiencias-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--cor-p3);
+  color: var(--cor-0);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -2.5rem;
+  top: -3px;
+}
+
+.experiencias-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.experiencias-card1 {
+  background-color: var(--cor-p3);
+  color: var(--cor-0);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 11px;
+  margin-left: 0.25rem;
+  
+}
+
+.experiencias-card2 {
+  background-color: var(--cor-0);
+  color: var(--cor-p3);
+  border: 2px solid var(--cor-p3);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 11px;
+  margin-left: 0.25rem;
+}
+
+/* responsivo */
+
+@media (max-width: 800px) {
+  .experiencias-container {
+    padding: 4rem 0;
+  }
+  .experiencias-content {
+    padding: 3rem;
+  }
+}
